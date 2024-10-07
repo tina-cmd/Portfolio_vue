@@ -68,31 +68,30 @@
         <div class="box">
           <div class="education-content">
             <div class="content">
-              <div class="year">2021-22<i class="bx bxs-calendar"></i></div>
-              <h3>Degree College</h3>
+              <div class="year">2010-2016<i class="bx bxs-calendar"></i></div>
+              <h3>Primary School</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!
+                I began my educational journey at Buenavista Central Elementary School, where I developed a strong foundation in basic subjects such as math, science, and language.
               </p>
             </div>
           </div>
           <div class="education-content">
             <div class="content">
-              <div class="year">2021-22 <i class="bx bxs-calendar"></i></div>
-              <h3>Degree College</h3>
+              <div class="year">2016-2022 <i class="bx bxs-calendar"></i></div>
+              <h3>Secondary School</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!
+                My secondary education at Saint James High School was a time of growth and exploration. I engaged in various academic and extracurricular activities.
               </p>
             </div>
           </div>
           <div class="education-content">
             <div class="content">
-              <div class="year">2021-22 <i class="bx bxs-calendar"></i></div>
+              <div class="year">2022-2026 <i class="bx bxs-calendar"></i></div>
               <h3>Degree College</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!
+                At Caraga State University,
+                I pursued my passion for technology
+                and innovation. My college experience was marked by rigorous coursework.
               </p>
             </div>
           </div>
@@ -103,31 +102,29 @@
         <div class="box">
           <div class="education-content">
             <div class="content">
-              <div class="year">2021-22<i class="bx bxs-calendar"></i></div>
-              <h3>Degree College</h3>
+              <div class="year">2026-2027<i class="bx bxs-calendar"></i></div>
+              <h3>Civil Service</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!
+                Civil servants work in various departments and agencies, ensuring the day-to-day functioning of government services and implementation of public policies. They hold roles in a wide range of sectors, including education, healthcare, transportation, public safety, social services, and more.
               </p>
             </div>
           </div>
           <div class="education-content">
             <div class="content">
-              <div class="year">2021-22 <i class="bx bxs-calendar"></i></div>
-              <h3>Degree College</h3>
+              <div class="year">2027-2028 <i class="bx bxs-calendar"></i></div>
+              <h3>Master's Degree</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!
+                These are typically required subjects that cover foundational knowledge in areas like network security, software engineering, database management, and cloud computing.
               </p>
             </div>
           </div>
           <div class="education-content">
             <div class="content">
-              <div class="year">2021-22 <i class="bx bxs-calendar"></i></div>
-              <h3>Degree College</h3>
+              <div class="year">2028-2029 <i class="bx bxs-calendar"></i></div>
+              <h3>Mid-Level (Specialization and Growth)</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-                tenetur enim, deserunt libero quisquam ab eius minus odio quod dicta!
+                Managing and maintaining enterprise networks.
+                Gain experience in large-scale projects or specific industry technologies (cloud computing, AI, DevOps).
               </p>
             </div>
           </div>
@@ -166,24 +163,24 @@
         </div>
       </div>
       <div class="skill-content">
-        <h3 class="skill-title">Language</h3>
+        <h3 class="skill-title">Language/Framwork</h3>
         <div class="skill-box skill-box2">
           <div class="single-skill">
-            <span class="topic">HTML</span>
+            <span class="topic">Laravel</span>
             <span class="topic">90%</span>
           </div>
           <div class="bar-side">
             <div class="bar bar-1"></div>
           </div>
           <div class="single-skill">
-            <span class="topic">CSS</span>
+            <span class="topic">ReactJs</span>
             <span class="topic">80%</span>
           </div>
           <div class="bar-side">
             <div class="bar bar-2"></div>
           </div>
           <div class="single-skill">
-            <span class="topic">JavaScript</span>
+            <span class="topic">Java</span>
             <span class="topic">70%</span>
           </div>
           <div class="bar-side">
@@ -195,8 +192,11 @@
   </section>
   <!-- *************************Contact Section************************* -->
   <section class="contact" id="contact">
-    <h2 class="title">Contact<span>Me</span></h2>
-    <form action="#" id="">
+    <h2 class="title mb-6 text-left mx-6">Contact<span>Me</span></h2>
+  <div class="flex flex-wrap py-8">
+    <!-- Form Section (3/4 width) -->
+    <div class="w-full md:w-2/4 px-4">
+      <form action="#" id="" class="textsy">
       <div class="input-box">
         <input type="text" required placeholder="Full Name" />
         <input type="email" required placeholder="Email" />
@@ -215,7 +215,19 @@
       ></textarea>
       <input type="submit" value="Send Message" class="btn" />
     </form>
-  </section>
+    </div>
+
+    <!-- Image Section (1/4 width) -->
+    <div class="w-full md:w-2/4 px-4 flex justify-center items-center">
+      <img
+        src="https://zxjdvpjsiwzhnsyilmaw.supabase.co/storage/v1/object/sign/Images/hero-img.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJJbWFnZXMvaGVyby1pbWcucG5nIiwiaWF0IjoxNzI4MjgzMDc5LCJleHAiOjE4ODU5NjMwNzl9.-fjwCTASAe_3O9ewyP_qnHI7OA7FM-0TkDCx5anayZ4&t=2024-10-07T06%3A37%3A57.187Z"
+        alt="Contact Image"
+        class="max-w-full rounded-md shadow-lg"
+      />
+    </div>
+  </div>
+</section>
+
   <footer>
     <div class="text">
       <p>Copyright @ 2024 by TinEXP.</p>

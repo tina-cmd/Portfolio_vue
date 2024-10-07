@@ -596,6 +596,16 @@ section form{
     justify-content: space-between;
     flex-wrap: wrap;
     height: 40px;
+    margin-top: 1rem;
+}
+input::placeholder {
+    text-indent: 10px; /* This moves the placeholder text */
+}
+textarea::placeholder{
+    text-indent: 10px; /* This moves the placeholder text */
+}
+form textarea{
+    margin-top: 1rem;
 }
 input:nth-child(1){
     opacity: 0;
@@ -613,26 +623,6 @@ section.start-animation input:nth-child(2){
     animation:Left 1s ease forwards;
     animation-delay: 1.2s;
 }
-/* Webkit Browsers */
-::-webkit-scrollbar {
-  width: 12px;
-  height: 12px; /* for horizontal scrollbars */
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-  border-radius: 50px;
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #888;
-  border-radius: 50px; /* Circular border */
-  border: 3px solid #f1f1f1; /* Adds space around thumb */
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
-}
 
  input,textarea{
     width: 100%;
@@ -640,8 +630,6 @@ section.start-animation input:nth-child(2){
     background:rgba(255,255,255,.1);
     border: .2rem solid rgba(255,255,255,.3);
     outline: none;
-    backdrop-filter: blur(10px);
-    filter: drop-shadow(0 0 100px #00ffee);
     border-radius: .8rem;
     gap: 2.5rem;
     margin: .7rem 0;
@@ -786,4 +774,29 @@ footer i{
     .input-box input{
         width: 100%;
     }
+}
+
+/* Webkit Browsers */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px; /* for horizontal scrollbars */
+}
+
+.textsy textarea{
+    resize: none;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 50px; /* Circular border */
+  border: 3px solid #f1f1f1; /* Adds space around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
