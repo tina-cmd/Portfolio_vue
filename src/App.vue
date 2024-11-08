@@ -34,7 +34,7 @@
       </div>
     </div>
     <img
-      src="https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/profile.png?t=2024-10-06T16%3A19%3A44.492Z"
+      src="https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/profile%20(1).png"
       alt=""
     />
   </section>
@@ -42,7 +42,7 @@
   <section class="about" id="about">
     <h2 class="title">About <span>Me</span></h2>
     <img
-      src="https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/profile.png?t=2024-10-06T16%3A19%3A44.492Z"
+      src="https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/profile%20(1).png"
       alt=""
       class="aboutImg"
     />
@@ -71,7 +71,9 @@
               <div class="year">2010-2016<i class="bx bxs-calendar"></i></div>
               <h3>Primary School</h3>
               <p>
-                I began my educational journey at Buenavista Central Elementary School, where I developed a strong foundation in basic subjects such as math, science, and language.
+                I began my educational journey at Buenavista Central Elementary School,
+                where I developed a strong foundation in basic subjects such as math,
+                science, and language.
               </p>
             </div>
           </div>
@@ -80,7 +82,8 @@
               <div class="year">2016-2022 <i class="bx bxs-calendar"></i></div>
               <h3>Secondary School</h3>
               <p>
-                My secondary education at Saint James High School was a time of growth and exploration. I engaged in various academic and extracurricular activities.
+                My secondary education at Saint James High School was a time of growth and
+                exploration. I engaged in various academic and extracurricular activities.
               </p>
             </div>
           </div>
@@ -89,9 +92,8 @@
               <div class="year">2022-2026 <i class="bx bxs-calendar"></i></div>
               <h3>Degree College</h3>
               <p>
-                At Caraga State University,
-                I pursued my passion for technology
-                and innovation. My college experience was marked by rigorous coursework.
+                At Caraga State University, I pursued my passion for technology and
+                innovation. My college experience was marked by rigorous coursework.
               </p>
             </div>
           </div>
@@ -105,7 +107,10 @@
               <div class="year">2026-2027<i class="bx bxs-calendar"></i></div>
               <h3>Civil Service</h3>
               <p>
-                Civil servants work in various departments and agencies, ensuring the day-to-day functioning of government services and implementation of public policies. They hold roles in a wide range of sectors, including education, healthcare, transportation, public safety, social services, and more.
+                Civil servants work in various departments and agencies, ensuring the
+                day-to-day functioning of government services and implementation of public
+                policies. They hold roles in a wide range of sectors, including education,
+                healthcare, transportation, public safety, social services, and more.
               </p>
             </div>
           </div>
@@ -114,7 +119,9 @@
               <div class="year">2027-2028 <i class="bx bxs-calendar"></i></div>
               <h3>Master's Degree</h3>
               <p>
-                These are typically required subjects that cover foundational knowledge in areas like network security, software engineering, database management, and cloud computing.
+                These are typically required subjects that cover foundational knowledge in
+                areas like network security, software engineering, database management,
+                and cloud computing.
               </p>
             </div>
           </div>
@@ -123,8 +130,9 @@
               <div class="year">2028-2029 <i class="bx bxs-calendar"></i></div>
               <h3>Mid-Level (Specialization and Growth)</h3>
               <p>
-                Managing and maintaining enterprise networks.
-                Gain experience in large-scale projects or specific industry technologies (cloud computing, AI, DevOps).
+                Managing and maintaining enterprise networks. Gain experience in
+                large-scale projects or specific industry technologies (cloud computing,
+                AI, DevOps).
               </p>
             </div>
           </div>
@@ -193,40 +201,40 @@
   <!-- *************************Contact Section************************* -->
   <section class="contact" id="contact">
     <h2 class="title mb-6 text-left mx-6">Contact<span>Me</span></h2>
-  <div class="flex flex-wrap py-8">
-    <!-- Form Section (3/4 width) -->
-    <div class="w-full md:w-2/4 px-4">
-      <form action="#" id="" class="textsy">
-      <div class="input-box">
-        <input type="text" required placeholder="Full Name" />
-        <input type="email" required placeholder="Email" />
+    <div class="flex flex-wrap py-8">
+      <!-- Form Section (3/4 width) -->
+      <div class="w-full md:w-2/4 px-4">
+        <form action="#" id="" class="textsy">
+          <div class="input-box">
+            <input type="text" required placeholder="Full Name" />
+            <input type="email" required placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="tel" required placeholder="Mobile Number" />
+            <input type="email" required placeholder="Subject For" />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            required
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </form>
       </div>
-      <div class="input-box">
-        <input type="tel" required placeholder="Mobile Number" />
-        <input type="email" required placeholder="Subject For" />
-      </div>
-      <textarea
-        name=""
-        id=""
-        cols="30"
-        rows="10"
-        placeholder="Message"
-        required
-      ></textarea>
-      <input type="submit" value="Send Message" class="btn" />
-    </form>
-    </div>
 
-    <!-- Image Section (1/4 width) -->
-    <div class="w-full md:w-2/4 px-4 flex justify-center items-center">
-      <img
-        src="https://zxjdvpjsiwzhnsyilmaw.supabase.co/storage/v1/object/sign/Images/hero-img.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJJbWFnZXMvaGVyby1pbWcucG5nIiwiaWF0IjoxNzI4MjgzMDc5LCJleHAiOjE4ODU5NjMwNzl9.-fjwCTASAe_3O9ewyP_qnHI7OA7FM-0TkDCx5anayZ4&t=2024-10-07T06%3A37%3A57.187Z"
-        alt="Contact Image"
-        class="max-w-full rounded-md shadow-lg"
-      />
+      <!-- Image Section (1/4 width) -->
+      <div class="w-full md:w-2/4 px-4 flex justify-center items-center">
+        <img
+          src="https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/hero-img.png"
+          alt="Contact Image"
+          class="max-w-full rounded-md shadow-lg"
+        />
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <footer>
     <div class="text">
