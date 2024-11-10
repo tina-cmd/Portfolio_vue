@@ -272,23 +272,14 @@ export default {
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("header nav a");
 
-    function downloadResume() {
-      const url =
-        "https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/Repollo_Resume.pdf?t=2024-11-10T08%3A03%3A29.109Z";
-      const anchor = document.createElement("a");
-      anchor.href = url;
-      anchor.setAttribute("download", "Repollo_Resume.pdf"); // Set the download attribute
+    document.getElementById("hireBtn").addEventListener("click", function () {
+      displayFile();
+    });
 
-      // Append the anchor to the document, click it, then remove it
-      document.body.appendChild(anchor);
-      anchor.click();
-      document.body.removeChild(anchor);
+    function displayFile() {
+      const fileUrl = "../Repollo_Resume.pdf"; // Replace with the actual file path or URL
+      window.open(fileUrl, "../Repollo_Resume.pdf"); // Opens the file in a new tab
     }
-
-    // Add event listener to the button to trigger downloadResume when clicked
-    window.onload = function () {
-      document.getElementById("hireBtn").addEventListener("click", downloadResume);
-    };
 
     // Update active nav link on scroll and toggle sticky header
     const onScroll = () => {
