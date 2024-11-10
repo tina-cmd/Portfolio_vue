@@ -277,8 +277,20 @@ export default {
     });
 
     function displayFile() {
-      const fileUrl = "../Repollo_Resume.pdf"; // Replace with the actual file path or URL
-      window.open(fileUrl, "../Repollo_Resume.pdf"); // Opens the file in a new tab
+      const fileUrl = "../Repollo_Resume.pdf";
+      //https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/Repollo_Resume.pdf?t=2024-11-10T08%3A03%3A29.109Z
+      // Open the file URL in a new tab with '_blank'
+      const newWindow = window.open(fileUrl, "_blank");
+
+      // Check if the new window was successfully opened
+      if (newWindow) {
+        // Attempt to set the tab title after opening
+        newWindow.onload = function () {
+          newWindow.document.title = "Repollo_Resume.pdf";
+        };
+      } else {
+        alert("Please allow popups for this website");
+      }
     }
 
     // Update active nav link on scroll and toggle sticky header
