@@ -28,7 +28,7 @@
         users.
       </p>
       <div class="btn-section">
-        <button class="btn">Hire me</button>
+        <button class="btn" id="hireBtn">Hire me</button>
         <button class="btn">Let's Talk</button>
       </div>
       <div class="social-media">
@@ -271,6 +271,18 @@ export default {
 
     const sections = document.querySelectorAll("section");
     const navLinks = document.querySelectorAll("header nav a");
+
+    document.getElementById("hireBtn").addEventListener("click", function () {
+      downloadFile();
+    });
+
+    function downloadFile() {
+      const fileUrl = "../Repollo_Resume.pdf"; // Replace with the actual file path or URL
+      const a = document.createElement("a");
+      a.href = fileUrl;
+      a.download = "Repollo_Resume"; // Replace with the file name you want to use for the download
+      a.click();
+    }
 
     // Update active nav link on scroll and toggle sticky header
     const onScroll = () => {
