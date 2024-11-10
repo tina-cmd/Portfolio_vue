@@ -277,7 +277,7 @@ export default {
     });
 
     function displayFile() {
-      const fileUrl = "../Repollo_Resume.pdf";
+      const fileUrl = "Repollo_Resume.pdf";
       //https://tixwibgexlqwgogwyovb.supabase.co/storage/v1/object/public/cv-portfolio/Repollo_Resume.pdf?t=2024-11-10T08%3A03%3A29.109Z
       // Open the file URL in a new tab with '_blank'
       const newWindow = window.open(fileUrl, "_blank");
