@@ -5,8 +5,47 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TinExp.</title>
+    <style>
+      .loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+        background: black; /* Optional background overlay */
+        opacity: 1;
+        animation: fadeOut 5s forwards;
+        animation-delay: 2s; /* Optional: wait 2 seconds before fading out */
+      }
+
+      @keyframes fadeOut {
+        0% {
+          opacity: 1; /* Start fully visible */
+        }
+        100% {
+          opacity: 0; /* Fade out to invisible */
+        }
+      }
+    </style>
   </head>
   <body>
+    <div class="loader">
+      <div class="relative flex w-64 animate-pulse gap-2 p-4">
+        <div class="h-12 w-12 rounded-full bg-slate-400"></div>
+        <div class="flex-1">
+          <div class="mb-1 h-5 w-3/5 rounded-lg bg-slate-400 text-lg"></div>
+          <div class="h-5 w-[90%] rounded-lg bg-slate-400 text-sm"></div>
+        </div>
+        <div
+          class="absolute bottom-5 right-0 h-4 w-4 rounded-full bg-slate-400"
+        ></div>
+      </div>
+    </div>
+
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>

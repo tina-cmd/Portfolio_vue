@@ -131,9 +131,9 @@ section{
     background-position: -33rem 0;
     transform: translateY(-100px);
     opacity: 0;
-    animation: textSlide 1s linear infinite,
+    animation: textSlide 5s linear infinite,
     TopSlide 1s ease forwards;
-    animation-delay: 1.5s,1.2s;
+    animation-delay: 2.5s,1.2s;
 }
 @keyframes textSlide{
     0%,10%,100%{
@@ -299,24 +299,32 @@ section{
 i:hover::after{
     top: 0;
 }
-.home img{
+.home img {
     width: 30vw;
-    background: rgba(255,255,255,.1);
-    border: .2rem solid rgba(255,255,255,.3);
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     filter: drop-shadow(0 0 8rem #00ffee);
     animation: Scale 1s ease forwards;
     scale: 0;
     animation-delay: 2s;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for both zoom and raise */
 }
-@keyframes Scale{
-    0%{
+
+.home img:hover {
+    transform: scale(1.01) translateY(-10px); /* Slight zoom and raise effect */
+    filter: drop-shadow(0 0 10rem #00ffee); /* Slightly stronger shadow for lift effect */
+}
+
+@keyframes Scale {
+    0% {
         scale: 0;
     }
-    100%{
+    100% {
         scale: 1;
     }
 }
+
 /* about section */
 .about{
     display: flex;
@@ -350,15 +358,22 @@ section.start-animation .title{
 .title span{
     color: #00ffee;
 }
-.about img{
+.about img {
     height: 25rem;
     width: 25rem;
-    background: rgba(255,255,255,.1);
-    border: .2rem solid rgba(255,255,255,.3);
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.2rem solid rgba(255, 255, 255, 0.3);
     border-radius: 50%;
     filter: drop-shadow(0 0 8rem #00ffee);
     scale: 0;
+    transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for zoom and raise */
 }
+
+.about img:hover {
+    transform: scale(1.03) translateY(-10px); /* Slight zoom and raise effect */
+    filter: drop-shadow(0 0 10rem #00ffee); /* Stronger shadow for raised effect */
+}
+
 section.start-animation .aboutImg{
     animation: scaleout 0.5s ease forwards;
 }

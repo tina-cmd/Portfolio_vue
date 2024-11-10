@@ -18,10 +18,14 @@
         <h2>Frontend Developer</h2>
       </div>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, illum! Libero
-        cupiditate sunt officiis laudantium inventore vero, praesentium iure accusantium
-        asperiores nobis architecto qui maiores, debitis at, eaque vel! Officiis, vel
-        reprehenderit dicta cumque doloremque qui. Autem aperiam cumque aliquid.
+        I'm a frontend developer passionate about creating intuitive, visually engaging,
+        and highly functional user interfaces. I focus on optimizing user experiences,
+        ensuring responsiveness, and maintaining code quality and performance. I stay
+        updated on the latest frontend technologies and frameworks, and I enjoy the
+        challenge of turning design concepts into seamless, interactive web applications.
+        Whether working with animations, handling state management, or perfecting layouts,
+        I aim to make every project feel smooth, efficient, and aesthetically pleasing for
+        users.
       </p>
       <div class="btn-section">
         <button class="btn">Hire me</button>
@@ -49,12 +53,15 @@
     <div class="text-content2">
       <h2>Frontend Developer</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores molestiae
-        nemo ipsam porro nam nesciunt repudiandae voluptates blanditiis soluta eum,
-        tempora explicabo optio corrupti ullam quidem magnam quaerat qui dolorem
-        architecto in dignissimos! Nostrum fugit, modi sed fugiat possimus maxime
-        voluptates ea molestiae animi, nesciunt inventore libero hic. Consectetur
-        praesentium facere aut perspiciatis voluptate. Nam sunt perspiciatis quasi rem.
+        As an experienced frontend developer, I bring a strong foundation in crafting
+        dynamic, responsive, and visually captivating web applications. My background
+        includes working extensively with modern frameworks like React, Vue, and Angular,
+        enabling me to build scalable and maintainable code. I focus on enhancing user
+        experience through well-structured layouts, seamless animations, and optimized
+        performance. I prioritize clean, modular code and enjoy collaborating closely with
+        designers and backend developers to bring ideas to life. With an eye for detail
+        and a commitment to best practices, I strive to create products that are both
+        user-friendly and efficient.
       </p>
       <button class="btn">Read More</button>
     </div>
